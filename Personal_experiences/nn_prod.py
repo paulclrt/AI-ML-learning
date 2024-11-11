@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Charger le modèle
-model = keras.models.load_model('mon_modele.h5')
+model = keras.models.load_model('mon_cnn_modele.h5')
 
 
 # Fonction pour charger, normaliser et afficher la prédiction
